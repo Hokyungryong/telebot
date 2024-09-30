@@ -5,6 +5,10 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 public class TestBot extends TelegramLongPollingBot {
 
+    public void test() {
+        System.out.println("test  v1");
+    }
+
     @Override
     public void onUpdateReceived (Update update) {
 
